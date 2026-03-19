@@ -39,7 +39,7 @@ class GildedRose {
 			fattore = fattore + 1;
         }
 		if (item.sellIn < 0) {
-			decreaseQuality(item,1);
+			item.quality=0;
     	}
 		increaseQuality(item,fattore);
     }
